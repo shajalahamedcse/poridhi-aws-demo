@@ -1,6 +1,6 @@
 ecr_repository_name := poridhi-web
 ecr_uri := 644341644844.dkr.ecr.us-east-1.amazonaws.com
-ecr_image_version_tag := ${github.run_number}
+ecr_image_version_tag := ${github_run_number}
 aws_region := us-east-1
 
 aws_docker_login:
