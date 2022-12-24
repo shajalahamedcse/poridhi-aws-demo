@@ -20,4 +20,4 @@ jobs:
         aws-region: us-east-1
     - name: Docker Login
       run: |
-      make aws_docker_login
+        make aws_docker_login
