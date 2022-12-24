@@ -21,3 +21,11 @@ jobs:
     - name: Docker Login
       run: |
         make aws_docker_login
+
+    - name: Docker Build
+      run: |
+        make docker_build
+    
+    - name: Docker Push
+      run: |
+        make docker_push
